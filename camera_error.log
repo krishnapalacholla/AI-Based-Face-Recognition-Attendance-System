@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "C:\Users\SATIS\OneDrive\Documents\Desktop\FaceRecognitionAttendance\gui\dashboard.py", line 1294, in _ai_processing_loop
+    name, score = self._compare_embedding(face.embedding)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SATIS\OneDrive\Documents\Desktop\FaceRecognitionAttendance\gui\dashboard.py", line 1193, in _compare_embedding
+    for user_name, stored_list in self.recognizer.embeddings.items():
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'embeddings'
+

@@ -1,0 +1,10 @@
+customtkinter==6.0.0
+opencv-python==5.0.0
+insightface==1.0.1
+openpyxl==3.1.5
+Pillow==12.3.0
+matplotlib
+reportlab
+bcrypt
+numpy
+onnxruntime
